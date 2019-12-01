@@ -4,11 +4,11 @@ Secure hash and message digest algorithms writen in plain LabVIEW designed prima
 LabVIEW library includes: SHA-256, SCRAM-SHA-256, PBKDF2-SHA-256, HMAC-SHA-256 and Base64 encoding/decoding.
 
 ## Algorithms
-    - SCRAM-SHA-256 - [RFC 5802] Secure authentication mechanism (client first and final messages)
-    - PBKDF2-SHA-256 - [RFC 2898C] Salted password-based cryptography
-    - HMAC-SHA-256 - [RFC 2104] Keyed hashing
-    - SHA-256 - [RFC 4634] 256 bit hash
-    - Base64 - [RFC 4648] Encode/decode
+- SCRAM-SHA-256 - [RFC 5802] Secure authentication mechanism (client first and final messages)
+- PBKDF2-SHA-256 - [RFC 2898C] Salted password-based cryptography
+- HMAC-SHA-256 - [RFC 2104] Keyed hashing
+- SHA-256 - [RFC 4634] 256 bit hash
+- Base64 - [RFC 4648] Encode/decode
 
 Refer to the specifications at https://tools.ietf.org/html/rfcXXXX.
 
