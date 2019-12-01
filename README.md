@@ -10,6 +10,8 @@ To install, download and run the VI Package (*.vip) using the VI Package Manager
 | --- | --- | --- |
 | [rpacini_hashlib-17.0.0.2.vip](https://github.com/rcpacini/labview_hashlib/raw/master/releases/rpacini_hashlib-17.0.0.2.vip) | 17.0.0.2 | LV2017 |
 
+This VI Package installs to the `<LABVIEW>\user.lib\rcpacini\hashlib` directory and is available on the diagram palette `User.lib > rcpacini > hashlib`.
+
 ## Algorithms
 - **SCRAM-SHA-256** - [RFC 5802] Secure authentication mechanism (client first and final messages)
 - **PBKDF2-SHA-256** - [RFC 2898C] Salted password-based cryptography
