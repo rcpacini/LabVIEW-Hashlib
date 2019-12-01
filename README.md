@@ -4,11 +4,11 @@ Secure hash and message digest algorithms writen in plain LabVIEW designed prima
 LabVIEW library includes: SHA-256, SCRAM-SHA-256, PBKDF2-SHA-256, HMAC-SHA-256 and Base64 encoding/decoding.
 
 ## Releases
-To install, download and run the VI Package (*.vip) using the VI Package Manager installed with LabVIEW.
+To install, download and run the VI Package (*.vip) using the VI Package Manager which is installed with LabVIEW.
 
 | VI Package | Version | LabVIEW |
 | --- | --- | --- |
-| [labview_hashlib.vip]() | 1.0.0.x | LV2017 |
+| [rpacini_hashlib-17.0.0.2.vip](https://github.com/rcpacini/labview_hashlib/raw/master/releases/rpacini_hashlib-17.0.0.2.vip) | 17.0.0.2 | LV2017 |
 
 ## Algorithms
 - **SCRAM-SHA-256** - [RFC 5802] Secure authentication mechanism (client first and final messages)
