@@ -17,8 +17,9 @@
 		<Item Name="hashlib" Type="Folder" URL="../hashlib">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="tests" Type="Folder" URL="../tests">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
+		<Item Name="tests" Type="Folder">
+			<Item Name="test_hashlib_sha256_hmac.vi" Type="VI" URL="../../tests/test_hashlib_sha256_hmac.vi"/>
+			<Item Name="test_hashlib_sha256_pbkdf2.vi" Type="VI" URL="../../tests/test_hashlib_sha256_pbkdf2.vi"/>
 		</Item>
 		<Item Name="hashlib_vi_tree.vi" Type="VI" URL="../hashlib_vi_tree.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
