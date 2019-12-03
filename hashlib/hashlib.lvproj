@@ -17,12 +17,22 @@
 		<Item Name="hashlib" Type="Folder" URL="../hashlib">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="tests" Type="Folder">
-			<Item Name="test_hashlib_sha256_hmac.vi" Type="VI" URL="../../tests/test_hashlib_sha256_hmac.vi"/>
-			<Item Name="test_hashlib_sha256_pbkdf2.vi" Type="VI" URL="../../tests/test_hashlib_sha256_pbkdf2.vi"/>
-		</Item>
 		<Item Name="hashlib_vi_tree.vi" Type="VI" URL="../hashlib_vi_tree.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
-		<Item Name="Build Specifications" Type="Build"/>
+		<Item Name="Build Specifications" Type="Build">
+			<Item Name="Hashlib Zip" Type="Zip File">
+				<Property Name="Absolute[0]" Type="Bool">false</Property>
+				<Property Name="BuildName" Type="Str">Hashlib Zip</Property>
+				<Property Name="Comments" Type="Str"></Property>
+				<Property Name="DestinationID[0]" Type="Str">{7BD36184-6851-4B6F-BABC-38107A817D5C}</Property>
+				<Property Name="DestinationItemCount" Type="Int">1</Property>
+				<Property Name="DestinationName[0]" Type="Str">Destination Directory</Property>
+				<Property Name="IncludedItemCount" Type="Int">1</Property>
+				<Property Name="IncludedItems[0]" Type="Ref">/My Computer</Property>
+				<Property Name="IncludeProject" Type="Bool">true</Property>
+				<Property Name="Path[0]" Type="Path">../../releases/rcpacini_hashlib-0.1.0.4.zip</Property>
+				<Property Name="ZipBase" Type="Str">NI_zipbasedefault</Property>
+			</Item>
+		</Item>
 	</Item>
 </Project>
