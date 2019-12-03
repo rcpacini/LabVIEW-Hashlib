@@ -37,7 +37,7 @@ Refer to the specifications at `https://tools.ietf.org/html/rfcXXXX` .
 ## Development
 The following sections are instructions on how to rebuild and test this package.
 
-### Build Specs
+### Build
 To rebuild the Source Zip, open the `hashlib\hashlib.lvproj` (LabVIEW Project), navigate to the `Build Specifications > Hashlib Source` properties, under `Zip Information` update the **Destination** filename version and press **Build**.
 
 The Source Zip is output to `releases/rcpacini_hashlib-X.X.X.X.zip`
@@ -46,7 +46,7 @@ To rebuild the VI Package, open the `hashlib\hashlib.vipb` (VI Package Build) in
 
 The VI Package is output to `releases/rcpacini_hashlib-X.X.X.X.vip`
 
-### Tests
+### Test
 Once the VI Package is installed to `Functions > User Libraries > rcpacini > Hashlib`, open the `tests\test_hashlib.lvproj` and run the `test_all.vi`.
 If successful, the **all_passed** boolean should return True.
 
