@@ -1,7 +1,7 @@
 # labview_hashlib
-Secure hash and message digest algorithms writen in plain LabVIEW designed primarily for web application authentication.
+Secure hash and message digest algorithms written in plain LabVIEW designed primarily for web application authentication.
 
-LabVIEW library includes: SHA-256, SCRAM-SHA-256, PBKDF2-SHA-256, HMAC-SHA-256 Base64 encoding/decoding, CRC-8, CRC-16 and CRC-32.
+LabVIEW library includes: SHA-256, SCRAM-SHA-256, PBKDF2-SHA-256, HMAC-SHA-256, Base64 encoding/decoding, CRC-8, CRC-16 and CRC-32.
 
 ## Getting Started
 Run the `/src/Demo.vi` to demostrate the different hashlib algorithms.
