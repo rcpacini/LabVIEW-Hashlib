@@ -29,6 +29,10 @@ Refer to the specifications at `https://tools.ietf.org/html/rfcXXXX` .
 | **SHA** | Secure Hash Algorithm |
 | **CRC** | Cyclic Redundancy Check |
 
+### SCRAM-SHA-256 Algorithm
+
+Refer to [RethinkDB's Writting Drivers](https://rethinkdb.com/docs/writing-drivers/) for a good overview of client side SCARM-SHA-256 implementation.
+
 ### CRC-8 Algorithms
 
 ```
