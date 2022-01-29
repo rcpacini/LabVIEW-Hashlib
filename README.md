@@ -31,7 +31,7 @@ Refer to the specifications at `https://tools.ietf.org/html/rfcXXXX` .
 
 ### SCRAM-SHA-256 Algorithm
 
-Refer to [RethinkDB's Writting Drivers](https://rethinkdb.com/docs/writing-drivers/) for a good overview of client side SCARM-SHA-256 implementation.
+Refer to [RethinkDB's Writting Drivers](https://rethinkdb.com/docs/writing-drivers/) for a good overview of client side SCRAM-SHA-256 implementation.
 
 ### CRC-8 Algorithms
 
