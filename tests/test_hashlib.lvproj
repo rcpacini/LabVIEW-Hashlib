@@ -16,6 +16,7 @@
 			<Item Name="test_crc8.vi" Type="VI" URL="../tests/test_crc8.vi"/>
 			<Item Name="test_crc16.vi" Type="VI" URL="../tests/test_crc16.vi"/>
 			<Item Name="test_crc32.vi" Type="VI" URL="../tests/test_crc32.vi"/>
+			<Item Name="test_md5.vi" Type="VI" URL="../tests/test_md5.vi"/>
 			<Item Name="test_sha256_hmac.vi" Type="VI" URL="../tests/test_sha256_hmac.vi"/>
 			<Item Name="test_sha256_pbkdf2.vi" Type="VI" URL="../tests/test_sha256_pbkdf2.vi"/>
 		</Item>

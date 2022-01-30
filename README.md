@@ -1,7 +1,7 @@
 # labview_hashlib
 Secure hash and message digest algorithms written in plain LabVIEW designed primarily for web application authentication.
 
-LabVIEW library includes: SHA-256, SCRAM-SHA-256, PBKDF2-SHA-256, HMAC-SHA-256, Base64 encoding/decoding, CRC-8, CRC-16 and CRC-32.
+LabVIEW library includes: SHA-256, SCRAM-SHA-256, PBKDF2-SHA-256, HMAC-SHA-256, Base64 encoding/decoding, CRC-8, CRC-16, CRC-32 and MD5.
 
 ## Getting Started
 Run the `/src/Demo.vi` to demostrate the different hashlib algorithms.
@@ -17,6 +17,7 @@ Run the `/src/Demo.vi` to demostrate the different hashlib algorithms.
 - **CRC-8** - [Various CRC-8](https://crccalc.com/) - 8-bit Cyclic Redundancy Check (CRC-8)
 - **CRC-16** - [Various CRC-16](https://crccalc.com/) - 16-bit Cyclic Redundancy Check (CRC-16)
 - **CRC-32** - [Various CRC-32](https://crccalc.com/) - 32-bit Cyclic Redundancy Check (CRC-32)
+- **MD5** - [RFC 1321](https://datatracker.ietf.org/doc/html/rfc1321) - MD5 Message-Digest Algorithm
 
 Refer to the specifications at `https://tools.ietf.org/html/rfcXXXX` .
 
@@ -28,6 +29,7 @@ Refer to the specifications at `https://tools.ietf.org/html/rfcXXXX` .
 | **PBKDF2** | Password-Based Cryptography Specification Version 2.0 |
 | **SHA** | Secure Hash Algorithm |
 | **CRC** | Cyclic Redundancy Check |
+| **MD** | Message Digest |
 
 ### SCRAM-SHA-256 Algorithm
 
