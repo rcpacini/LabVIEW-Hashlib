@@ -1,12 +1,10 @@
-# labview_hashlib
+# LabVIEW-Hashlib
 Secure hash and message digest algorithms written in plain LabVIEW designed primarily for web application authentication.
 
 LabVIEW library includes: SHA-256, SCRAM-SHA-256, PBKDF2-SHA-256, HMAC-SHA-256, Base64 encoding/decoding, CRC-8, CRC-16, CRC-32 and MD5.
 
 ## Getting Started
-Run the `/src/Demo.vi` to demostrate the different hashlib algorithms.
-
-![Hashlib Demo](/docs/imgs/HashlibDemo.png)
+Run the `/Examples/Demo.vi` to demostrate the different hashlib algorithms.
 
 ## Algorithms
 - **SCRAM-SHA-256** - [RFC 7677](https://datatracker.ietf.org/doc/rfc7677) Simple Authentication and Security Layer Mechanisms (client first and final messages)
@@ -112,15 +110,16 @@ Source: https://crccalc.com/
 Nothing to build or install, just download the Hashlib LabVIEW Library source code. 
 
 *Change Notes:*
-- VI Package build spec removed (no VIPM dependency)
-- Moved VIs into `/src/SubVIs` directory
+- Added Packed Library (lvlibp) build
+- Added LabVIEW 2018 zip
+- Renamed files and directories
 
 ### Test
-Run `/tests/test_all.vi` to verify all algorithms.
+Run `/Tests/Test All.vi` to verify all algorithms.
 
 If successful, the **all_passed** boolean should return True.
 
 ## Support
 Submit a ticket for bug fixes or feature requests.
 
--Ryan
+-Ryan Pacini
