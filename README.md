@@ -6,6 +6,8 @@ LabVIEW library includes: SHA-256, SCRAM-SHA-256, PBKDF2-SHA-256, HMAC-SHA-256, 
 ## Getting Started
 Run the `/Examples/Demo.vi` to demostrate the different hashlib algorithms.
 
+![LabVIEW-Hashlib Demo](/Demo.png)
+
 ## Algorithms
 - **SCRAM-SHA-256** - [RFC 7677](https://datatracker.ietf.org/doc/rfc7677) Simple Authentication and Security Layer Mechanisms (client first and final messages)
 - **PBKDF2-SHA-256** - [RFC 2898C](https://tools.ietf.org/html/rfc2898) Salted password-based cryptography
