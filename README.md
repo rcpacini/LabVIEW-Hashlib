@@ -2,7 +2,7 @@
 
 Secure hash and message digest algorithms written in plain LabVIEW designed primarily for web application authentication.
 
-LabVIEW library includes: SHA-256, SCRAM-SHA-256, PBKDF2-SHA-256, HMAC-SHA-256, Base64 encoding/decoding, CRC-8, CRC-16, CRC-32 and MD5.
+LabVIEW library includes: SHA-256, SCRAM-SHA-256, PBKDF2-SHA-256, HMAC-SHA-256, Base64 encoding/decoding, CRC-8, CRC-16, CRC-32, ADLER-32, and MD5.
 
 ## Getting Started
 
