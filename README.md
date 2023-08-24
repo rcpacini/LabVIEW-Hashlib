@@ -1,14 +1,17 @@
 # LabVIEW-Hashlib
+
 Secure hash and message digest algorithms written in plain LabVIEW designed primarily for web application authentication.
 
 LabVIEW library includes: SHA-256, SCRAM-SHA-256, PBKDF2-SHA-256, HMAC-SHA-256, Base64 encoding/decoding, CRC-8, CRC-16, CRC-32 and MD5.
 
 ## Getting Started
+
 Run the `/Examples/Demo.vi` to demostrate the different hashlib algorithms.
 
 ![LabVIEW-Hashlib Demo](/Demo.png)
 
 ## Algorithms
+
 - **SCRAM-SHA-256** - [RFC 7677](https://datatracker.ietf.org/doc/rfc7677) Simple Authentication and Security Layer Mechanisms (client first and final messages)
 - **PBKDF2-SHA-256** - [RFC 2898C](https://tools.ietf.org/html/rfc2898) Salted password-based cryptography
 - **HMAC-SHA-256** - [RFC 2104](https://tools.ietf.org/html/rfc2104) Keyed hashing
@@ -18,18 +21,21 @@ Run the `/Examples/Demo.vi` to demostrate the different hashlib algorithms.
 - **CRC-16** - [Various CRC-16](https://crccalc.com/) - 16-bit Cyclic Redundancy Check (CRC-16)
 - **CRC-32** - [Various CRC-32](https://crccalc.com/) - 32-bit Cyclic Redundancy Check (CRC-32)
 - **MD5** - [RFC 1321](https://datatracker.ietf.org/doc/html/rfc1321) - MD5 Message-Digest Algorithm
+  32-bit Cyclic Redundancy Check (CRC-32)
+- **ADLER-32** - [RFC 1950](https://datatracker.ietf.org/doc/html/rfc1950) - 32-bit Adler checksum for ZLIB
 
 Refer to the specifications at `https://tools.ietf.org/html/rfcXXXX` .
 
 ### Acronyms & Abbreviations
-| Key | Name |
-| --- | --- |
-| **SCRAM** | Salted Challenge Response Authentication Mechanism |
-| **HMAC** | Keyed-Hashing for Message Authentication |
+
+| Key        | Name                                                  |
+| ---------- | ----------------------------------------------------- |
+| **SCRAM**  | Salted Challenge Response Authentication Mechanism    |
+| **HMAC**   | Keyed-Hashing for Message Authentication              |
 | **PBKDF2** | Password-Based Cryptography Specification Version 2.0 |
-| **SHA** | Secure Hash Algorithm |
-| **CRC** | Cyclic Redundancy Check |
-| **MD** | Message Digest |
+| **SHA**    | Secure Hash Algorithm                                 |
+| **CRC**    | Cyclic Redundancy Check                               |
+| **MD**     | Message Digest                                        |
 
 ### SCRAM-SHA-256 Algorithm
 
@@ -52,7 +58,8 @@ CRC-8/MAXIM     0xA1  0x31  0x00  true   true   0x00
 CRC-8/ROHC      0xD0  0x07  0xFF  true   true   0x00
 CRC-8/WCDMA     0x25  0x9B  0x00  true   true   0x00
 ```
-Source: https://crccalc.com/  
+
+Source: https://crccalc.com/
 
 ### CRC-16 Algorithms
 
@@ -85,7 +92,7 @@ CRC-16/X-25         0x906E 0x1021 0xFFFF true  true  0xFFFF
 CRC-16/XMODEM       0x31C3 0x1021 0x0000 false false 0x0000
 ```
 
-Source: https://crccalc.com/  
+Source: https://crccalc.com/
 
 ### CRC-32 Algorithms
 
@@ -104,24 +111,36 @@ CRC-32Q       0x3010BF7F 0x814141AB 0x00000000 false false  0x00000000
 CRC-32/XFER   0xBD0BE338 0x000000AF 0x00000000 false false  0x00000000
 ```
 
-Source: https://crccalc.com/ 
+Source: https://crccalc.com/
+
+### ADLER-32 Algorithms
+
+```
+Data = "abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz"
+
+ADLER-32: 0x154F215E
+```
+
+Source: http://www.unit-conversion.info/texttools/adler-32/
 
 ## Development
 
 ### Build
-Nothing to build or install, just download the Hashlib LabVIEW Library source code. 
 
-*Change Notes:*
-- Added Packed Library (lvlibp) build
-- Added LabVIEW 2018 zip
-- Renamed files and directories
+Nothing to build or install, just download the Hashlib LabVIEW Library source code.
+
+_Change Notes:_
+
+- Added Adler-32 checksum for zlib
 
 ### Test
+
 Run `/Tests/Test All.vi` to verify all algorithms.
 
 If successful, the **all_passed** boolean should return True.
 
 ## Support
+
 Submit a ticket for bug fixes or feature requests.
 
 -Ryan Pacini

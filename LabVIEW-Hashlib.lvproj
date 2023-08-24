@@ -16,6 +16,7 @@
 			<Item Name="Demo.vi" Type="VI" URL="../Examples/Demo.vi"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
+			<Item Name="Test adler32.vi" Type="VI" URL="../Tests/Test adler32.vi"/>
 			<Item Name="Test All.vi" Type="VI" URL="../Tests/Test All.vi"/>
 			<Item Name="Test base64.vi" Type="VI" URL="../Tests/Test base64.vi"/>
 			<Item Name="Test crc8.vi" Type="VI" URL="../Tests/Test crc8.vi"/>
@@ -38,7 +39,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{FDEB54D3-21EB-43FB-8960-E206ED773976}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">LabVIEW-Hashlib.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../Builds/NI_AB_PROJECTNAME.lvlibp</Property>

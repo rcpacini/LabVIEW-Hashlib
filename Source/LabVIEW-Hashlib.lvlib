@@ -10,6 +10,7 @@
 
 </Property>
 	<Item Name="SubVIs" Type="Folder">
+		<Item Name="adler32.vi" Type="VI" URL="../adler32.vi"/>
 		<Item Name="base64_decode.vi" Type="VI" URL="../base64_decode.vi"/>
 		<Item Name="base64_encode.vi" Type="VI" URL="../base64_encode.vi"/>
 		<Item Name="crc8.vi" Type="VI" URL="../crc8.vi"/>
